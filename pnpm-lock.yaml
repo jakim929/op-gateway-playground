@@ -27,6 +27,12 @@ importers:
         specifier: ^6.2.0
         version: 6.2.0
     devDependencies:
+      '@eth-optimism/contracts-bedrock':
+        specifier: ^0.16.2
+        version: 0.16.2
+      '@openzeppelin/contracts':
+        specifier: ^4.9.3
+        version: 4.9.3
       concurrently:
         specifier: ^8.2.1
         version: 8.2.2
@@ -796,6 +802,11 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@eth-optimism/contracts-bedrock@0.16.2:
+    resolution: {integrity: sha512-a2+f7soDbrd6jV74U02EpyMwQt2iZeDZ4c2ZwgkObcxXUZLZQ2ELt/VRFBf8TIL3wYcBOGpUa1aXAE2oHQ7oRA==}
+    requiresBuild: true
+    dev: true
+
   /@humanwhocodes/config-array@0.11.13:
     resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
     engines: {node: '>=10.10.0'}
@@ -1080,6 +1091,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@openzeppelin/contracts@4.9.3:
+    resolution: {integrity: sha512-He3LieZ1pP2TNt5JbkPA4PNT9WC3gOTOlDcFGJW4Le4QKqwmiNJCRt44APfxMxvq7OugU/cqYuPcSBzOw38DAg==}
+    dev: true
 
   /@parcel/watcher@2.0.4:
     resolution: {integrity: sha512-cTDi+FUDBIUOBKEtj+nhiJ71AZVlkAsQFuGQTun5tV9mwQBQgZvhCzG+URPQc8myeN32yRVZEfVAPCs1RW+Jvg==}

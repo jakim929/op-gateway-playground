@@ -2,3 +2,4 @@ ds-test/=./node_modules/ds-test/src/
 forge-std/=./node_modules/forge-std/src/
 solmate/=./node_modules/solmate/src/
 multicall/=./node_modules/multicall/src/
+@eth-optimism/=node_modules/@eth-optimism/
