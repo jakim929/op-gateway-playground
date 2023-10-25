@@ -1,3 +1,0 @@
-[submodule "packages/contracts/lib/evmgateway"]
-	path = packages/contracts/lib/evmgateway
-	url = https://github.com/ensdomains/evmgateway
